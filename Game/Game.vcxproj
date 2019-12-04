@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{0B38B7C7-BBA1-4809-B1E4-9A1344FCDBCE}</ProjectGuid>
+    <ProjectGuid>{1C1ECE4A-8885-4F71-9B21-B9629DB94DF6}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>DataWriter</RootNamespace>
+    <RootNamespace>Game</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -151,7 +151,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="DataWriter.c" />
+    <ClCompile Include="Game.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
