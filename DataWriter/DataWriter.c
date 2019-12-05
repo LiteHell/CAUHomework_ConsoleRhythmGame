@@ -30,7 +30,7 @@ void resetEntry(GameDataEntry *entry);
 void writeEntry(FILE* file, GameDataEntry* entry);
 int main()
 {
-	FILE* dataFile = fopen("gamedata.dat", "w");
+	FILE* dataFile = fopen("gamedata.txt", "w");
 	if (dataFile == NULL) {
 		perror("데이터파일을 만들 수 없습니다");
 		return 1;
