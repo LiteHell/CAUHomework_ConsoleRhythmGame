@@ -31,7 +31,7 @@ void resetEntry(GameDataEntry *entry);
 char *hit_miss(int a);
 
 int main() {
-	//system("mode con lines=24");
+	system("mode con lines=24");
 	FILE* dataFile = fopen("gamedata.txt", "r");
 	if (dataFile == NULL) {
 		perror("데이터파일을 읽을 수 없습니다");
@@ -161,7 +161,7 @@ void resetEntry(GameDataEntry *entry) {
 }
 
 char *hit_miss(int a) {
-	if (a == 0) return "    ";
-	else if (a == 1) return " hit";
-	else if (a == 2)return "miss";
+	if (a == 0) return "      ";
+	else if (a == 1) return " hit  ";
+	else if (a == 2)return " miss ";
 }
